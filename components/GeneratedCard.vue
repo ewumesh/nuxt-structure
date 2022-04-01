@@ -10,7 +10,7 @@
     </v-row>
   <v-row no-gutters style="margin:50px 0">
     <v-col cols="6" v-for="(data, index) in userDetails" :key="index">
-      <v-card id="myId" style="height:54mm; width:86mm">
+      <v-card id="myId" style="height:54mm; width:86mm; border:1px solid #000;">
         <v-row no-gutters style="padding:3px 0">
           <v-col cols="3" class="text-center" style="padding-top:10px; padding-left:15px">
             <img height="70" src="@/assets/images/tu-logo.png"/>
