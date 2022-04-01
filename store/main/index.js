@@ -1,7 +1,7 @@
 import TestService from '@/services/main';
 import {getField, updateField} from "vuex-map-fields";
 
-const authModule = {
+const testModule = {
 
     namespaced: true,
   
